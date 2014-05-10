@@ -32,19 +32,35 @@ XiawuANEHelper.getInstance().itoosSDK.login(true);//弹出用户中心
 
 
 protected function aneHandler(code:String,level:String):void
+
 {
+
 	switch(code)
+	
 	{
+	
 		case "login_ane_sucess":
+		
 			var arr:Array = String(level).split(";");
+			
 			uid= arr[0];//用户唯一识别，uid
+			
 			session = arr[1];//token验证
+			
 			break;
+			
 		case "PAY_ANE_SUCESS":
+		
 			//支付成功
+			
 			break;
+			
 		case "logout_ane_sucess":
+		
 			//注销
+			
 			break;
+			
 	}
+	
 }
