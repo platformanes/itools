@@ -6,7 +6,7 @@ ios平台
 源码最近会传上，因为git不怎么会用，熟悉中。
 
 
-private var AppID:int = 1;
+private var AppID:int = 1;/n
 private var AppKey:String = "xxxxxxxxxxxxxxxxxxxx";
 private var uid:String;
 private var session:String;
